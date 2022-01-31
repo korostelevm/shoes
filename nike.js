@@ -221,7 +221,7 @@ const run = async function () {
   // console.log(JSON.stringify(shoes,null,2))
 };
 
-run();
+// run();
 
 // fetch("https://www.nike.com/t/zoom-freak-3-basketball-shoes-QXBvM0/DA0694-002", {
 //   "headers": ,
