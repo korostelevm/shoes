@@ -9,7 +9,7 @@ app.all('/file',(req,res)=>{
     res.sendFile(path.resolve(__dirname, "./image.png"));
 })
 app.all('/', (req, res) => {
-    console.log("Just got a request!")
+    console.log("im on a branch")
     res.json(req.headers)
 })
 app.listen(process.env.PORT || 3000)
