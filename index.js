@@ -9,7 +9,6 @@ app.all('/file',(req,res)=>{
     res.sendFile(path.resolve(__dirname, "./image.png"));
 })
 app.all('/', (req, res) => {
-    console.log("Just got a request!")
-    res.json(req.headers)
+    res.send('in on main')
 })
 app.listen(process.env.PORT || 3000)
