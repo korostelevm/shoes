@@ -10,6 +10,6 @@ app.all('/file',(req,res)=>{
 })
 app.all('/', (req, res) => {
     console.log("im on a branch asdf")
-    res.json(req.headers)
+    res.send('im on a branch')
 })
 app.listen(process.env.PORT || 3000)
